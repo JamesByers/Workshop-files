@@ -32,10 +32,8 @@ Right click on the file links below and save them to your laptop.  Keep track of
  * The second most influential book on visualization of data.  [Amazon link](http://www.amazon.com/Information-Dashboard-Design-Effective-Communication/dp/0596100167)
 * How to Lie With Statistics - Darrell Huff
  * Excellent read and only $7.  Helps you see how **not** to inadvertantly mislead.  [Amazon link](http://www.amazon.com/How-Lie-Statistics-Darrell-Huff/dp/0393310728)
-
-*Tableau On-Demand video training link: [](http://www.tableausoftware.com/learn/training)
-
-*Tableau your data (book) – Dan Murray  [Be sure to get the new Second edition!)
+* Tableau On-Demand video training link: [](http://www.tableausoftware.com/learn/training)
+* Tableau your data (book) – Dan Murray  [Be sure to get the new Second edition!)
  [Amazon link](*http://www.amazon.com/Tableau-Your-Data-Analysis-Software/dp/1119001196/)
 
 
