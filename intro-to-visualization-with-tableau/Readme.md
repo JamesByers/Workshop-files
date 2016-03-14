@@ -27,8 +27,9 @@ Right click on the file links below and save them to your laptop.  Keep track of
 
 **Additional resources**
 * The Visual Display of Quantitative Information – Edward Tufte
- * Arguably the most influential book ever on visualization.  Available Seattle Public Library
+ * Arguably the most influential book ever written on visualization.  Available at the Seattle Public Library
 * Information Dashboard Design – Stephen Few
+ * The second most influential book on visualization of data.  [Amazon link](http://www.amazon.com/Information-Dashboard-Design-Effective-Communication/dp/0596100167)
 * How to Lie With Statistics - Darrell Huff
  * Excellent read and only $7.  Helps you see how **not** to inadvertantly mislead.  [Amazon link](http://www.amazon.com/How-Lie-Statistics-Darrell-Huff/dp/0393310728)
 
