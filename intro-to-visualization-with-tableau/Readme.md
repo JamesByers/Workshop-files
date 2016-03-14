@@ -1,6 +1,6 @@
 ### Intro to Visualization with Tableau - links and files
 
-### Link to a Tableau Public workbook that you can use to continue exploring the Coffee Company data, experience more Tableau techniques and follow a series of Tableau worksheets to discover more insights
+#### Link to a Tableau Public workbook that you can use to continue exploring the Coffee Company data, experience more Tableau techniques and follow a series of Tableau worksheets to discover more insights
 
 Link: [Coffee Company Sales Viz3](https://public.tableau.com/profile/moving.electron#!/vizhome/CoffeeCompanySalesViz3/Totalsales)
 
@@ -13,23 +13,9 @@ worksheet name | insight | Tableau techniques
 **Sales Dashboard** | dashboard combining the two sales line charts into one tab. This dashboard report tab delivers that "our Sales Manager" Requested | Combines two worksheets into a dashboard, sets the filter control (Quick filter) to affect all workbooks using that data source, Adds a textbox for the title, adds info on who to contact at the bottom, adjusts spacing of filter by inserting a blank type object into the dashboard.
 **Sales and Profit by quarter** | provides an initial comparison of sales and profit over two years | Used the Show Me capability to create an intial clustered column chart.  When you download the file and open it with the Tableau app on you laptop you will see Show Me in the upper left hand corner of the visualization edition screen.  Note that this is done by putting the dimension "Measure Names" on the Column shelf and the measure "Measure Values" on the row shelf. Then the "Measure Values" are filtered to display only the Sales and Profit dimensions. In this worksheet I also changed the date grouping to display by Quarter. Try changing the order of profit and sales by clicking and dragging the color in the color legend to change the order.
 **Sales by market and quarter** | Slices the data into the Markets so we can take a compare performace by market | Adds the market dimension to the column shelf to do the additional slicing of the data 
-
-
-
-
-**Research Design and Exploratory data analysis**|
-3/15: [L01 Introduction to Data Science](#class-1) | 3/17: [L02 Research design and Pandas](#research-design)
-3/22: L03 Statistics fundamentals (with Pandas) | 3/24: [L04 Command Line and Version Control](#command-line) **Project Discussion Deadline**
-3/29: [L05 Fetching Data](#fetching-data) **Project Discussion Deadline** |
-**Foundations of data modeling**|
- | 3/31: [L06 Intro to Regression](#intro-to-regression) **Project Question and Dataset Due**
-4/5: L07 Evaluating Model Fit | 4/7: [L08 Intro to Classification - K nearest neighbor](#knn)
-4/12: [L09 Classifying with Logistic Regression](#logistic-regression) | 4/14: [L10 Advanced model evaluation](#advanced_model)
-4/19: [L11 Regularization and Clustering](#class-11-regularization-and-clustering)| 4/21: L12: **First Project Presentations** + bonus topics
-**Data science in the real world**|
-4/26: [L13 Natural Language Processing](#nlp) | 4/28: L14 Dimensionality reduction, **Draft Paper Due**
-5/3: [L15 Decision Trees](#decision) | 5/5: [L16 Ensembling, Bagging and Random Forests](#ensemble)
-5/10: L17 Modelin
+**Sales by product** | Provides a look at sales by product in order to look for any anomolies | On the Marks card the chart type is set to "bar" otherwise nearly identical to what we did to create a line chart
+**Profit by product** | Whoa! Green tea is barely profitable!  We are excellent data analytics people so we need to look into this insight further! | Identical to the Sales by product chart except that the Sales field is replaced by the Profit measure
+**Profit and loss by Market and Market Size | The profit issue is in predominantly in the West market although there are appear to be some issue in Central.  The issue is in Small markets within those Markets.  We will alert the Sales Manager to this issue and move this workboot into a Dashboard so we can share a final version with them.  |  Market and Market Size are both added to the column shelf.  Product is added to the Filter card and the filter set to allow just Green Tea.  A "Profit indicator" Calculated field was is created and used to slice the data into loss and profit bars that show loss if the **sum** of the Profit is a profit or a loss.  Not that the formula in the Calculated Field uses a SUM in several places.  This is very typical of a Calculated field since most often you want to use the aggegate results.  However there are times where you will not sum in the logic.  Try to remove the SUMs from the calculated field and you will see the chart change into a bar chart where each bar is broken down into a color coding of profit and loss
 
 #### Workshop data files
 
@@ -38,4 +24,17 @@ Right click on the file links below and save them to your laptop.  Keep track of
 * [The Coffee company data Excel file](https://github.com/JamesByers/Workshop-files/raw/master/intro-to-visualization-with-tableau/Coffee%20Chain.xlsx)
   * You ***do not*** need to have Excel on your laptop to download this file.  Tableau will be able to access the data even without Excel being loaded on your laptop.
 * [US airline on-time performance data](https://raw.githubusercontent.com/JamesByers/Workshop-files/master/intro-to-visualization-with-tableau/284334620_T_ONTIME.csv)
-  * Note that this is a 45Mb file that is too big to open with Excel.  It can be opened in Tableau however without issue.  The file can be examined with a text editor such as Notepad (Windows) or TextEdit (Mac).
+  * Note that this is a 45Mb file that is likely too big to open with Excel on your laptop.  It can be opened in Tableau however without issue.  The file can also be examined with a text editor such as Notepad (Windows) or TextEdit (Mac).
+
+
+#### Additional resources
+* The Visual Display of Quantitative Information – Edward Tufte
+ * Arguably the most influential book ever on visualization.  Available Seattle Public Library
+* Information Dashboard Design – Stephen Few
+* How to Lie With Statistics - Darrell Huff
+ * Excellent read and only $7.  Helps you see how **not** to inadvertantly mislead.  [Amazon link](http://www.amazon.com/How-Lie-Statistics-Darrell-Huff/dp/0393310728)
+*Tableau On-Demand video training link: [](http://www.tableausoftware.com/learn/training)
+*Tableau your data (book) – Dan Murray  [Be sure to get the new Second edition!)
+ [Amazon link](*http://www.amazon.com/Tableau-Your-Data-Analysis-Software/dp/1119001196/)
+
+
