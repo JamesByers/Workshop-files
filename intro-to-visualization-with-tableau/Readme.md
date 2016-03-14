@@ -1,6 +1,6 @@
 ### Intro to Visualization with Tableau - links and files
 
-** You have access to a Tableau Public workbook that you can use to continue exploring the Coffee Company data, experience more Tableau techniques and follow a series of Tableau worksheets to discover more insights **
+**You have access to a Tableau Public workbook that you can use to continue exploring the Coffee Company data, experience more Tableau techniques and follow a series of Tableau worksheets to discover more insights**
 Link: [Coffee Company Sales Viz3](https://public.tableau.com/profile/moving.electron#!/vizhome/CoffeeCompanySalesViz3/Totalsales)
 
 The Coffee Company Sales Viz3 Tableau workbook contains eight tabs:
@@ -16,7 +16,7 @@ worksheet name | insight | Tableau techniques
 **Profit by product** | Whoa! Green tea is barely profitable!  We are excellent data analytics people so we need to look into this insight further! | Identical to the Sales by product chart except that the Sales field is replaced by the Profit measure
 **Profit and loss by Market and Market Size | The profit issue is in predominantly in the West market although there are appear to be some issue in Central.  The issue is in Small markets within those Markets.  We will alert the Sales Manager to this issue and move this workboot into a Dashboard so we can share a final version with them.  |  Market and Market Size are both added to the column shelf.  Product is added to the Filter card and the filter set to allow just Green Tea.  A "Profit indicator" Calculated field was is created and used to slice the data into loss and profit bars that show loss if the **sum** of the Profit is a profit or a loss.  Not that the formula in the Calculated Field uses a SUM in several places.  This is very typical of a Calculated field since most often you want to use the aggegate results.  However there are times where you will not sum in the logic.  Try to remove the SUMs from the calculated field and you will see the chart change into a bar chart where each bar is broken down into a color coding of profit and loss
 
-** Data files provided for the class **
+**Data files provided for the class**
 
 Right click on the file links below and save them to your laptop.  Keep track of the location of the downloaded location on your laptop. We will be referring to these files in class.
 
@@ -26,7 +26,7 @@ Right click on the file links below and save them to your laptop.  Keep track of
   * Note that this is a 45Mb file that is likely too big to open with Excel on your laptop.  It can be opened in Tableau however without issue.  The file can also be examined with a text editor such as Notepad (Windows) or TextEdit (Mac).
 
 
-** Additional resources **
+**Additional resources**
 * The Visual Display of Quantitative Information – Edward Tufte
  * Arguably the most influential book ever on visualization.  Available Seattle Public Library
 * Information Dashboard Design – Stephen Few
