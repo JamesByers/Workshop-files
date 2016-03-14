@@ -5,6 +5,7 @@
 Link: [Coffee Company Sales Viz3](https://public.tableau.com/profile/moving.electron#!/vizhome/CoffeeCompanySalesViz3/Totalsales)
 
 This Tableau workbook contains eight tabs:
+
 worksheet name | insight | Tableau techniques
 --- | --- |  --- 
 Total Sales |main summary view of this KPI as requested by our Sales Manager | line chart, date filter with quick filter user control, trend line
