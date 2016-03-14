@@ -1,6 +1,6 @@
 ### Intro to Visualization with Tableau - links and files
 
-#### Link to a Tableau Public workbook that you can use to continue exploring the Coffee Company data, experience more Tableau techniques and follow a series of Tableau worksheets to discover more insights
+####Link to a Tableau Public workbook that you can use to continue exploring the Coffee Company data, experience more Tableau techniques and follow a series of Tableau worksheets to discover more insights
 
 Link: [Coffee Company Sales Viz3](https://public.tableau.com/profile/moving.electron#!/vizhome/CoffeeCompanySalesViz3/Totalsales)
 
