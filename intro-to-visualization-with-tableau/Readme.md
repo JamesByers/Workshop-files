@@ -8,10 +8,11 @@ This Tableau workbook contains eight tabs:
 
 worksheet name | insight | Tableau techniques
 --- | --- |  --- 
-Total Sales |main summary view of this KPI as requested by our Sales Manager | line chart, date filter with quick filter user control, trend line
-Caffiene vs non-caffiene | sales "sliced" into caffiene and non-caffienne products | using the color card to slice the data into separate lines
-Sales Dashoard | dashboard combining the two sales line charts into one tab. This dashboard report tab delivers that "our Sales Manager" Requested | Combines two worksheets into a dashboard, sets the filter control (Quick filter) to affect all workbooks using that data source, Adds a textbox for the title, adds info on who to contact at the bottom, adjusts spacing of filter by inserting a blank type object into the dashboard.
-
+**Total Sales** |main summary view of this KPI as requested by our Sales Manager | line chart, date filter with quick filter user control, trend line
+**Caffiene vs non-caffiene** | sales "sliced" into caffiene and non-caffienne products | using the color card to slice the data into separate lines
+**Sales Dashboard** | dashboard combining the two sales line charts into one tab. This dashboard report tab delivers that "our Sales Manager" Requested | Combines two worksheets into a dashboard, sets the filter control (Quick filter) to affect all workbooks using that data source, Adds a textbox for the title, adds info on who to contact at the bottom, adjusts spacing of filter by inserting a blank type object into the dashboard.
+**Sales and Profit by quarter** | provides an initial comparison of sales and profit over two years | Used the Show Me capability to create an intial clustered column chart.  When you download the file and open it with the Tableau app on you laptop you will see Show Me in the upper left hand corner of the visualization edition screen.  Note that this is done by putting the dimension "Measure Names" on the Column shelf and the measure "Measure Values" on the row shelf. Then the "Measure Values" are filtered to display only the Sales and Profit dimensions. In this worksheet I also changed the date grouping to display by Quarter. Try changing the order of profit and sales by clicking and dragging the color in the color legend to change the order.
+**Sales by market and quarter** | Slices the data into the Markets so we can take a compare performace by market | Adds the market dimension to the column shelf to do the additional slicing of the data 
 
 
 
